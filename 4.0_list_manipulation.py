@@ -51,5 +51,6 @@ list=[2, 4, 6, 8, 10, 12, 14, 16]
 print(list)
 print(list[0]) 
 print(sorted(list))
-list.pop(4)
-print("The list after removing the 5th element is:", list)
+list.pop(3)
+print("The list after removing the 4th element is:", list)
+
