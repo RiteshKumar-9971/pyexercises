@@ -25,7 +25,7 @@ DELIVERABLE
 # 1. In:my name is Ritesh
 # 2. Process: Print("Ritesh")
 # 3. Out:  printing my name 5 times
-# 4. My message, and why: i used if else statement to catch error if my print statment syntex is wrong.
+# 4. My message, and why: how to run a print code.
 
 
 # Your code below

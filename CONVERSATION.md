@@ -82,3 +82,22 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-29 10:18, in .
+
+**Me:** how to add number in python
+
+**Tutor:**
+
+Adding numbers in Python is done with the `+` operator.
+
+```python
+# TODO: replace a and b with your numbers
+a = 5
+b = 3
+result = a + b
+print(result)  # prints 8
+```
+
+What function do you use to add two numbers?
