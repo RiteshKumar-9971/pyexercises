@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In: My name and age
+# 2. Process:my name and age is sentence
+# 3. Out:my name and age
+# 4. My two fields, and what I would do with them: just the name and age to know the name and age of user
 
 
 # Your code below
