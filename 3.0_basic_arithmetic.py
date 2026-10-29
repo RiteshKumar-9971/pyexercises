@@ -24,12 +24,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
-
-
+# 1. In: Two integers entered by the user
+# 2. Process: Perform addition, subtraction, multiplication, and division operations
+# 3. Out: The results of the four operations
+# 4. What happens when the second number is zero, and why: The program displays a message instead of a result because division by zero is undefined.
 # Your code below
 number_1 = int(input("Enter number 1: "))
 number_2 = int(input("Enter number 2: "))
