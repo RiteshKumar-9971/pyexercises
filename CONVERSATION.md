@@ -25,3 +25,42 @@ Printing text in Python uses the `print()` function.
 ```
 
 What argument does `print()` take?
+
+---
+## 2026-10-29 09:36, in .
+
+**Me:** give example of what is if statment in python
+
+**Tutor:**
+
+An **if statement** runs code only when a condition is true.
+
+```python
+# TODO: change the condition and the message
+value = 10
+if value > 5:
+    print("The value is large")
+```
+
+What is the keyword that starts every if statement?
+
+---
+## 2026-10-29 09:47, in .
+
+**Me:** give example of what is if else  statment in python
+
+**Tutor:**
+
+An if-else statement decides between two paths based on a condition.
+
+```python
+# Example: decide if a number is positive or not
+number = 3  # try 0 or -2
+
+if number > 0:
+    print("Positive")  # TODO: what happens when number is 0?
+else:
+    print("Not positive")
+```
+
+Which keyword starts the alternative branch when the condition is false?
