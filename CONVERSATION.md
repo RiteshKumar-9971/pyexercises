@@ -149,3 +149,52 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-29 11:02, in .
+
+**Me:** how to use list in python
+
+**Tutor:**
+
+Lists are ordered, changeable collections in Python.
+
+```python
+# Create a list
+fruits = ["apple", "banana", "cherry"]
+
+# Access the second item
+second_fruit = fruits[1]
+
+# Add a new item
+fruits.append("orange")
+
+# Remove an item
+fruits.remove("banana")
+
+# Loop through the list
+for fruit in fruits:
+    print(fruit)
+```
+
+What is the index of the first item in a list?
+
+---
+## 2026-10-29 11:38, in .
+
+**Me:** how to select numbers from dictionary in python
+
+**Tutor:**
+
+Selecting numbers from a dictionary means filtering its values by type.
+
+```python
+data = {"name": "alpha", "clicks": 120, "cost": 45.5, "views": 3400}
+
+# TODO: keep only the values that are int or float
+filtered = {k: v for k, v in data.items() if isinstance(v, (int, float))}
+
+print(filtered)
+```
+
+What built-in function checks the type of a value?
