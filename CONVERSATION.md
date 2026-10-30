@@ -382,3 +382,80 @@ What built-in function gives you the numbers 1, 2, …, N?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-30 06:37, in .
+
+**Me:** how to use list reverse in python
+
+**Tutor:**
+
+Reversing a list in Python.
+
+```python
+def reverse_list(items):
+    # TODO: return a new list with items in reverse order
+    # Hint: slicing with [::-1] creates a reversed copy
+    pass
+
+# Example
+toys = ["car", "doll", "ball"]
+reversed_toys = reverse_list(toys)
+print(reversed_toys)  # Expected: ['ball', 'doll', 'car']
+```
+
+What argument does the slice `[::-1]` take?
+
+---
+## 2026-10-30 06:37, in .
+
+**Me:** how to Build a list of at least eight items, then display: the whole list, one item of your
+    choice, the list sorted, and something computed from it. in python
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-30 06:37, in .
+
+**Me:** how to use list reverse in python
+
+**Tutor:**
+
+Reversing a list in Python.
+
+```python
+def reverse_list(items):
+    # TODO: return a new list that is the reverse of items
+    # Hint: slicing with [::-1] makes a reversed copy
+    pass
+
+# Example
+toys = ["car", "doll", "ball"]
+print(reverse_list(toys))  # Should print ['ball', 'doll', 'car']
+```
+
+What argument does the slice `[::-1]` take?
+
+---
+## 2026-10-30 06:38, in .
+
+**Me:** how to use list reverse in python
+
+**Tutor:**
+
+Reversing a list in Python is done with the `reverse()` method.
+
+```python
+# TODO: create a list of three toy items
+toy_list = ["alpha", "beta", "gamma"]
+
+# TODO: call the method that reverses the list in place
+toy_list.reverse()
+
+# TODO: print the list to check it is reversed
+print(toy_list)
+```
+
+Which built-in list method reverses the list in place?
