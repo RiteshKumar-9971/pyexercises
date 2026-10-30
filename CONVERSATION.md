@@ -459,3 +459,41 @@ print(toy_list)
 ```
 
 Which built-in list method reverses the list in place?
+
+---
+## 2026-10-30 06:46, in .
+
+**Me:** how to use list sorted in python
+
+**Tutor:**
+
+Sorting a list in Python.
+
+```python
+# Sorting a list with sorted()
+unsorted_list = [3, 1, 4, 2]
+sorted_list = sorted(unsorted_list)  # TODO: What does sorted() return?
+```
+
+What argument does `sorted()` take?
+
+---
+## 2026-10-30 06:47, in .
+
+**Me:** how to use list shuffled in python
+
+**Tutor:**
+
+Shuffling a list means putting its items in random order.
+
+```python
+import random
+
+def shuffle_list(items):
+    random.shuffle(items)
+    return items
+
+# TODO: call shuffle_list with your own list
+```
+
+What does `random.shuffle` change directly?
