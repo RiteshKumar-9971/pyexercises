@@ -198,3 +198,23 @@ print(filtered)
 ```
 
 What built-in function checks the type of a value?
+
+---
+## 2026-10-30 05:43, in .
+
+**Me:** how to rank in python with loop
+
+**Tutor:**
+
+Ranking with a loop means iterating through a list and keeping track of the order.
+
+```python
+# TODO: replace 'values' with your list of numbers
+values = [4, 1, 7, 3]
+rank = 1
+for v in values:
+    print(f"Value {v} is rank {rank}")
+    rank += 1
+```
+
+Which built-in function can you use instead of this loop to get the same ranks?

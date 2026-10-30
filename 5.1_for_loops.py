@@ -24,11 +24,16 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: A list of eight exam scores.
+# 2. Process: For each score, compute its ranking.
+# 3. Out: Display each score with its ranking.
 # 4. What I compute for each item, and why it is worth showing:
-
+#    I compute the ranking of each score based on its position in the sorted list. This helps the reader understand how each score compares to the others.
 
 # Your code below
 list = [2, 4, 6, 8, 10, 12, 14, 16]
+for score in list:
+    ranking = sorted(list).index(score) + 1
+    print("Score:", score, "Ranking:", ranking)
+
+print("Your ranking is:", ranking)
