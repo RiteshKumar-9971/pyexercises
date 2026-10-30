@@ -289,3 +289,65 @@ while number > 1:
 ```
 
 What is the name of the operator that compares `number` to 1 in the condition?
+
+---
+## 2026-10-30 06:10, in .
+
+**Me:** how to use uppercase in python
+
+**Tutor:**
+
+Converting text to uppercase in Python.
+
+```python
+def to_uppercase(text):
+    # TODO: return the text converted to uppercase
+    pass
+
+# Example
+sample = "hello marketing"
+print(to_uppercase(sample))  # Expected: "HELLO MARKETING"
+```
+
+What method converts a string to uppercase?
+
+---
+## 2026-10-30 06:10, in .
+
+**Me:** how to use strip in python
+
+**Tutor:**
+
+String cleaning with strip
+
+The strip() method removes leading and trailing whitespace (spaces, tabs, newlines) from a string.
+
+```python
+# TODO: import nothing, write nothing else
+def clean_text(text):
+    # TODO: call strip on text and return the result
+    pass
+```
+
+What does strip() remove by default?
+
+---
+## 2026-10-30 06:11, in .
+
+**Me:** how to use capitalize in python
+
+**Tutor:**
+
+Capitalising the first letter of a string.
+
+```python
+def capitalise_first_letter(text):
+    # TODO: return the string with its first character capitalised
+    pass
+
+# Example
+sample = "hello world"
+print(capitalise_first_letter(sample))  # Expected: "Hello world"
+```
+
+What method must you call on the string to capitalise its first letter?

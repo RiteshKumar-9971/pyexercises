@@ -24,10 +24,40 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: A sentence provided by the user.
+# 2. Process: Apply four different string transformations.
+# 3. Out: The transformed sentences.
 # 4. My four transformations, and when each is useful:
+
+# Transformation 1: Convert to uppercase
+# Useful for displaying text in a more prominent way.
+
+# Transformation 2: Convert to lowercase
+# Useful for case-insensitive comparisons.
+
+# Transformation 3: Capitalize the first letter of the sentence
+# Useful for formatting titles or headings.
+
+# Transformation 4: Strip leading and trailing spaces
+# Useful for cleaning up user input.
 
 
 # Your code below
+sentence = input("Enter a sentence: ")
+
+# Transformation 1: Convert to uppercase
+uppercase_sentence = sentence.upper()
+print("Uppercase:", uppercase_sentence)
+
+# Transformation 2: Convert to lowercase
+lowercase_sentence = sentence.lower()
+print("Lowercase:", lowercase_sentence)
+
+# Transformation 3: Capitalize the first letter of the sentence
+capitalized_sentence = sentence.capitalize()
+print("Capitalized:", capitalized_sentence)
+
+# Transformation 4: Strip leading and trailing spaces
+stripped_sentence = sentence.strip()
+print("Stripped:", stripped_sentence)
+
