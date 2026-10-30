@@ -28,10 +28,24 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: User input asking if they want to continue or not.
+# 2. Process: Check if the input matches the expected answer.
+# 3. Out: A message indicating whether the user wants to continue or not.
 # 4. My stop condition, my attempt limit, my summary:
-
+i = 20
+while i < 10:
+    print("This is attempt number:", i + 1)
+    i = i + 1
 
 # Your code below
+while True:
+   user_input = input("Do you want to continue? (yes/no): ").strip().lower()
+    
+   if user_input == "yes":
+        print("You chose to continue.")
+        break
+   elif user_input == "no":
+        print("You chose to stop.")
+        break
+   else:
+        print("Invalid input. Please enter 'yes' or 'no'.")
