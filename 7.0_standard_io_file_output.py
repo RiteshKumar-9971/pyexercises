@@ -47,4 +47,4 @@ with open("student_data.csv", "a", newline="") as file:
     file.write("First Name,Last Name,Birth Year,Student Number\n")
     file.write(first_name + "," + last_name + "," + birth_year + "," + student_number + "\n")
 
-print("Data saved to 7.0_student_data.csv")
+print("Data saved to student_data.csv")
