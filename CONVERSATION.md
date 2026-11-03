@@ -523,3 +523,32 @@ def greet(name):
 ```
 
 What is the keyword used to define a function in Python?
+
+---
+## 2026-11-03 12:34, in .
+
+**Me:** How to create a function interaction in python
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-03 12:39, in .
+
+**Me:** How to Write three small functions, each doing one thing, and a fourth that uses the other
+    three to answer one question about your data in python
+
+**Tutor:**
+
+Single Responsibility Pattern
+Write three tiny functions, each with one job, and a fourth that calls them.
+
+```python
+# TODO: write a function that loads the CSV file into a list of rows
+# TODO: write a function that extracts the column index from the header
+# TODO: write a function that computes the average of a numeric column
+# TODO: write a function that answers the question: what is the average cost per click?
+```
+
+Which function is responsible for opening the file and reading the rows?
