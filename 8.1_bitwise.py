@@ -21,23 +21,29 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-#Exercise 8.0 — Operators
-
-#1. What goes in?
-#   Two strings: "Python" and "python".
-
-#2. What happens to it?
-#   The program performs six comparison operations and five
-#   logical operations on the comparison results.
-
-#3. What comes out?
-#   A readable table showing each expression and its Boolean result.
-
-#4. Which two values did you pick, and which comparison result surprised you?
-#   I picked "Python" and "python".
-#   The surprising result is that "Python" < "python" is True
-#   because Python compares strings using character order,
-#   and uppercase letters come before lowercase letters.
-
+#1. Input: Three permissions represented by numbers.
+#2. Process: Combine, check, add and remove permissions using bitwise operators.
+#3. Output: Permission values in binary.
+#4. Context: Digital marketing campaign permissions.
+#   1 = View, 2 = Edit, 4 = Publish.
 
 # Your code below
+
+VIEW = 1
+EDIT = 2
+PUBLISH = 4
+
+# Combine permissions
+permissions = VIEW | EDIT
+print("Initial:", format(permissions, "03b"))
+
+# Check publish permission
+print("Can publish:", (permissions & PUBLISH) != 0)
+
+# Add publish permission
+permissions = permissions | PUBLISH
+print("After adding publish:", format(permissions, "03b"))
+
+# Remove edit permission
+permissions = permissions & ~EDIT
+print("After removing edit:", format(permissions, "03b"))

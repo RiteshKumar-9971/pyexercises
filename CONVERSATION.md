@@ -868,10 +868,35 @@ Refused, off topic.
 
 Refused, off topic.
 
-## 2026-11-06 18:56, in .
+---
+## 2026-11-06 18:35, in .
 
 **Me:** how to use operators in python
 
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-06 19:10, in .
+
+**Me:** how to use bitwise operators in python
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-04 19:15, in .
+
+**Me:** how to remove space in python
+
+**Tutor:**
+
+Removing spaces from a string in Python.
+
+```python
+text = "  hello  world  "
+clean_text = text.replace(" ", "")
+# TODO: what does replace() return?
+```
