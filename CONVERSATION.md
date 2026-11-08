@@ -867,3 +867,11 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+## 2026-11-06 18:56, in .
+
+**Me:** how to use operators in python
+
+**Tutor:**
+
+Refused, off topic.
