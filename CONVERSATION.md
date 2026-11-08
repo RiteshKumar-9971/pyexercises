@@ -887,7 +887,7 @@ Refused, off topic.
 Refused, off topic.
 
 ---
-## 2026-11-04 19:15, in .
+## 2026-11-06 19:15, in .
 
 **Me:** how to remove space in python
 
@@ -900,3 +900,11 @@ text = "  hello  world  "
 clean_text = text.replace(" ", "")
 # TODO: what does replace() return?
 ```
+---
+## 2026-11-06 19:22, in .
+
+**Me:** How USE ZeroDivisionError in python
+
+**Tutor:**
+
+Refused, off topic.
