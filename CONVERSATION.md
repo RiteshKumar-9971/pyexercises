@@ -869,7 +869,7 @@ Refused, off topic.
 Refused, off topic.
 
 ---
-## 2026-11-06 18:35, in .
+## 2026-11-04 20:35, in .
 
 **Me:** how to use operators in python
 
@@ -878,7 +878,7 @@ Refused, off topic.
 Refused, off topic.
 
 ---
-## 2026-11-06 19:10, in .
+## 2026-11-04 21:10, in .
 
 **Me:** how to use bitwise operators in python
 
@@ -887,7 +887,7 @@ Refused, off topic.
 Refused, off topic.
 
 ---
-## 2026-11-06 19:15, in .
+## 2026-11-04 21:15, in .
 
 **Me:** how to remove space in python
 
@@ -901,7 +901,7 @@ clean_text = text.replace(" ", "")
 # TODO: what does replace() return?
 ```
 ---
-## 2026-11-06 19:22, in .
+## 2026-11-04 21:22, in .
 
 **Me:** How USE ZeroDivisionError in python
 
@@ -910,7 +910,7 @@ clean_text = text.replace(" ", "")
 Refused, off topic.
 
 ---
-## 2026-11-06 19:45, in .
+## 2026-11-04 21:45, in .
 
 **Me:** How USE import re in python
 
