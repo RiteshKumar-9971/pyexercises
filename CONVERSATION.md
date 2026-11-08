@@ -908,3 +908,12 @@ clean_text = text.replace(" ", "")
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-06 19:45, in .
+
+**Me:** How USE import re in python
+
+**Tutor:**
+
+Refused, off topic.
